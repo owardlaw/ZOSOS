@@ -1,2 +1,7 @@
 # zsos
-x86-64 project
+- bootloader
+- kernel
+- shell 
+
+
+
