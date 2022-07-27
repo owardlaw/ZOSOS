@@ -18,3 +18,15 @@
 3. 
 4. 
 5.  
+
+# Installations 
+
+Build docker the env
+```console
+$ docker build buildenv -t zosos-buildenv
+```
+
+Run instance of container on Intel Mac or Windows
+
+Linux / MacOS : docker run --rm -it -v $pwd:/root/env zosos-buildenv
+Windows       : docker run --rm -it -v %cd%:/root/env zosos-buildenv
