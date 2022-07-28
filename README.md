@@ -27,10 +27,10 @@ $ docker build buildenv -t zosos-buildenv
 ```
 
 2. Run instance of container on Intel Mac or Windows
-
+```console
 Linux / MacOS : docker run --rm -it -v $pwd:/root/env zosos-buildenv
 Windows       : docker run --rm -it -v %cd%:/root/env zosos-buildenv
-
+```
 3. CD to project dit and command below to create the .iso file in the dist folder.
 ```console
 make build-x86_64
