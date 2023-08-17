@@ -1,4 +1,4 @@
-# Zsos
+# ZSOS
 - bootloader
 - kernel
 - shell 
@@ -12,12 +12,6 @@
 
 [linux-insides](https://0xax.gitbooks.io/linux-insides/content/)
 
-# Order of ops 
-1. 
-2. 
-3. 
-4. 
-5.  
 
 # Installations 
 
